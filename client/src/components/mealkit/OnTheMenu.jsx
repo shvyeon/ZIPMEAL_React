@@ -1,5 +1,5 @@
 import React from "react";
 
 export default function OnTheMenu() {
-  return <div></div>;
+  return <div>on-the-menu</div>;
 }
