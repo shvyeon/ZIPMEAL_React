@@ -2,10 +2,6 @@ const express = require("express");
 const app = express();
 const generalController = require("./controllers/general");
 
-app.get("/", (req, res) => {
-  res.send({ test: "hi" });
-});
-
 app.use("/main", generalController);
 
 app.use((req, res) => {

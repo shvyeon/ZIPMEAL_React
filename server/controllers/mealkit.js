@@ -1,9 +1,12 @@
 const mealkitModel = require("../models/mealkitList.js");
+
 const express = require("express");
 const router = express.Router();
 
-router.get("/", (req, res) => {
-  res.send({ mealkits: mealkitModel.getTopMeals() });
+router.get("/onTheMenu", function (req, res) {
+  res.render("mealkit/onTheMenu", {
+    mealkits: mealkitModel.getAllMealKits(),
+  });
 });
 
 module.exports = router;
