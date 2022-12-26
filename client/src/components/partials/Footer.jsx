@@ -3,7 +3,7 @@ import React from "react";
 export default function Footer() {
   return (
     <>
-      <div class="container-fluid footer navbar-fixed-bottom">
+      <div class="container-fluid footer">
         <div class="row">
           <div class="col-md-4 mt-5 footerContact">
             <h4 style={{ marginBottom: "15px" }}>CONTACT US</h4>

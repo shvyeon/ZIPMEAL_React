@@ -17,7 +17,7 @@ export default function Home() {
   }, [mealkits]);
 
   return (
-    <>
+    <div className="body-content">
       <Hero />
       {/* <!-- Content Section --> */}
       <h4 style={{ marginTop: "15px" }}>HOW IT WORKS</h4>
@@ -102,6 +102,6 @@ export default function Home() {
           {mealkits && mealkits.map((item, idx) => <TopMeals mealkit={item} />)}
         </div>
       </div>
-    </>
+    </div>
   );
 }
