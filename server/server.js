@@ -1,8 +1,10 @@
 const express = require("express");
 const app = express();
 const generalController = require("./controllers/general");
+const mealkitController = require("./controllers/mealkit");
 
 app.use("/main", generalController);
+app.use("/main/mealkit", mealkitController);
 
 app.use((req, res) => {
   res.status(404).send("Page Not Found");

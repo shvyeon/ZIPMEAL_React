@@ -14,7 +14,7 @@ export default function Home() {
 
   useEffect(() => {
     callApi();
-  }, [mealkits]);
+  }, []);
 
   return (
     <div className="body-content">

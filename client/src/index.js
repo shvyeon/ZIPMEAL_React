@@ -15,7 +15,7 @@ render(
       <Route path="/" element={<App />} />
       <Route path="/log-in" element={<LogIn />} />
       <Route path="/sign-up" element={<SignUp />} />
-      <Route path="/mealkit/onTheMenu" element={<OnTheMenu />} />
+      <Route path="/onTheMenu" element={<OnTheMenu />} />
     </Routes>
   </BrowserRouter>,
   rootElement

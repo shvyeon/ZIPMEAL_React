@@ -14,7 +14,6 @@ export default function Header() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-          
             <span class="navbar-toggler-icon"></span>
           </button>
           <a class="navbar-brand" href="/">
@@ -34,7 +33,7 @@ export default function Header() {
                 </a>
               </li>
               <li class="nav-item navi-left">
-                <a class="nav-link" href="/mealkit/onTheMenu">
+                <a class="nav-link" href="/onTheMenu">
                   ON THE MENU
                 </a>
               </li>
